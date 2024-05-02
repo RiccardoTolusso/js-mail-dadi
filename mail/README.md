@@ -8,7 +8,7 @@ stampa un messaggio appropriato sull’esito del controllo. -->
 Creo un campo di input type text con id="input-email"
 Creo un bottone con id = "submit"
 
-
+-- JAVASCRIPT --
 Creo un array di stringhe allowedEmails che conterrà una lista di indirizzi email accettati
 
 allowedEmails = [
