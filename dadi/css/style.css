@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* DICE SECTION */
+#result{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18.75rem;
+    height: 18.75rem;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#result .dot-container{
+    width: 98px; /* 100px - 6px (pixel del bordo del parent)/3*/
+    height: 98px;
+}
+
+#result .dot-container .dot{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* END OF DICE SECTION */
+
+
+/* TEXT OUTPUT SECTION */
+#text-output{
+    text-align: center;
+    font-size: 5rem;
+}
