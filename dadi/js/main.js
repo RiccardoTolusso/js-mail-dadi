@@ -126,6 +126,10 @@ diceButton.addEventListener('click', function(){
     const numeroUtente = randomDiceNumber() 
     const numeroComputer = randomDiceNumber()
 
+    console.log(`
+    numero utente = ${numeroUtente}
+    numero computer = ${numeroComputer}
+    `)
     diceRollAnimation(numeroUtente, numeroComputer)
 
 })
